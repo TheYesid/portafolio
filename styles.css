@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;600 & display=swap');
+
+:root{
+    --color--one: #ffffff;
+    --color--two: #FCDA6B;
+    --color--three: #222222;
+    --color--four: #8E7BEF;
+    --color--five:#f9f5f2;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.primary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    padding: 1rem;
+}
+
+.p1 > p{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.letter{
+    font-size: 16px;
+    color: var(--color--four);
+}
+
+.logos_sociales > img{
+    background-color: var(--color--four);
+    font-size: 24px;
+    padding: 1rem;
+    margin: 1rem 1.2rem;
+    border-radius: 1.4rem;
+    display: inline-block;
+}
+
+.perfil{
+    width: 300px;
+    height: 350px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cuadro_contato{
+    background-color: var(--color--four);
+    color: var(--color--one);
+    font-size: 24px;
+    width: 300px;
+    height: 3.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactame{
+    font-size: 20px;
+}
+
+.secundary{  
+    background-color: var(--color--two);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.secundary > h2{
+    font-size: 32px;
+}
+
+.secundary > p{
+    font-size: 16px;
+    margin: 1rem 0rem 1.5rem 0rem;
+}
+
+.experienciaa{
+    font-size: 20px;
+    display: flex;
+    text-align: left;
+}
+
+.historia_1{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.subHistoria_1{
+    margin-left: 2.5rem;
+}
+
+.historia_2{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.subHistoria_2{
+    margin-left: 2.5rem;
+}
+
+.historia_3{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.subHistoria_3{
+    margin-left: 2.5rem;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+}
+
+.iconos_de_habilidades1{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.iconos_de_habilidades2{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.iconos_de_habilidades3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.iconos_de_habilidades4{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.terciary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.terciary > img{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: green;
+}
+
+.izquierda{
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 32px;
+    display: flex;
+    justify-content: left;
+}
+
+.terciary > p{
+    color: var(--color--four);
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: left;
+}
+
+.image_1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.image_2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.image_3{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.final > h3{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.final{
+    background-color: var(--color--one);
+    padding: 1rem;
+}
+
+.section_final{
+    display: flex;
+    justify-content: space-around;
+}
+
+.telefono_correito{
+    background-color: var(--color--five);
+    width: 40px;
+    height: 40px;
+    border-radius: 1.5rem;
+}
+
+.centrado{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    
+    
+}
+
+.pruebas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 3rem;
+}
+
+.pruebass{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+}
+
+.casito{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
