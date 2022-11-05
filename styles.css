@@ -256,7 +256,7 @@ hr {
 
 @media(min-width: 950px){
     #secundary{  
-        background-color: coral;
+        
         display: flex;
         justify-content: space-around;
         align-content: space-arounds;
