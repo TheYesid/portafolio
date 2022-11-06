@@ -144,9 +144,18 @@ h1{
     border-radius: 1.5rem;
 }
 
-.perfil img{
-    width: 340px;
-    height: 400px;
+.face_1{
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.face_2{
+    display: none;
 }
 
 .first_contact{
@@ -159,6 +168,45 @@ h1{
     gap: 2rem;
     justify-content: center;
     align-items: center;
+}
+
+@media(min-width: 900px){
+    #first_section{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        gap: 3rem;
+        padding: 8rem;
+    } 
+
+    .social_logos{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .face_1{
+        display: none;
+    }
+
+    h1{
+        font-size: 80px;
+    }
+
+    .Design_experience p{
+        font-size: 24px;
+    }
+
+    .face_2 {
+        display: flex;
+        width: 100px;
+        height: 100px;
+    }
+
+    .first_contact{
+        display: flex;
+        width: 350px;
+    }
 }
 
 #second_section{
@@ -174,6 +222,10 @@ h1{
 .second_section_1{
     display: flex;
     flex-direction: column;
+}
+
+.size >p{
+    margin-bottom: 2rem;
 }
 
 .second_section_1 h2{
@@ -272,6 +324,87 @@ h1{
     gap: 1rem;
 }
 
+@media (min-width: 900px){
+    #second_section{
+        padding: 8rem;
+        margin: 0;
+    }
+
+    .second_section_1 h2{
+        font-size: 40px;
+        margin-bottom: 4rem;
+    }
+
+    .second_section_1 p{
+        font-size: 18px;
+    }
+
+    .second_section_1{
+        display: flex;
+        flex-direction: row;
+        gap: 14rem;
+    }
+
+    .box_2{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1.6rem;
+    }
+
+    .box_2 >h4{
+        font-size: 24px;
+    }
+
+    .stories{
+        width: 700px;
+    }
+
+    .ability{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .second_section_2{
+        display: flex;
+        flex-direction: row;
+        gap: 13rem;
+        justify-content: center;
+    }
+
+    .skill_1{
+        width: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skill_2{
+        width: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skill_3{
+        width: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skill_4{
+        width: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 #third_section{
     padding: 2rem;
     display: flex;
@@ -280,7 +413,7 @@ h1{
 
 .briefcase{
     font-size: 32px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0rem;
 }
 
 #third_section p{
@@ -291,17 +424,53 @@ h1{
 
 .image_1{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .image_2{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .image_3{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+}
+
+@media(min-width: 900px){
+    #third_section{
+        padding: 0rem 8rem 8rem 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        font-size: 24px;
+    }
+
+    .briefcase{
+        padding: 3rem 0rem 0rem 8rem;
+    }
+
+    .image_1{
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        gap: 1rem;
+    }
+
+    .image_2{
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        gap: 1rem;
+    }
+
+    .image_3{
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        gap: 1rem;
+    }
 }
 
 #four_section{
@@ -343,7 +512,37 @@ h1{
     margin-bottom: 3.5rem;
 }
 
+@media(min-width: 900px){
+    #four_section{
+        padding: 0rem 8rem 2rem 8rem;
+    }
 
+    #four_section h3{
+        font-size: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .section_contact{
+        display: flex;
+        justify-content: center;
+        gap: 15rem;
+    }
+
+    .section_contact img{
+        width: 120px;
+        border-radius: 1rem;
+        padding: 0.5rem;
+    }
+
+    .section_contact p{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+    
 
 
 
